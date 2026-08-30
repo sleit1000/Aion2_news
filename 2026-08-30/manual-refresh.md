@@ -39,6 +39,8 @@ This entry was intentionally re-published after repairing the GitHub Actions wor
 
 **AION 2 monitoring → GitHub archive → Discord notification**
 
+**Discord delivery retry:** triggered again after fixing Markdown path detection in the GitHub Action.
+
 ## Official sources
 
 - AION 2 Steam News — Launch Scale Test Coming Up: https://steamcommunity.com/app/3393110/allnews/
