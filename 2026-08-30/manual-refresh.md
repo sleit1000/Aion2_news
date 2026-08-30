@@ -35,7 +35,7 @@ At the time of this check, the latest significant official AION 2 Global announc
 
 No newer official Global announcement superseding the August 26 Launch Scale Test notice was found during this refresh.
 
-This entry was intentionally created as an end-to-end verification of the active monitoring pipeline:
+This entry was intentionally re-published after repairing the GitHub Actions workflow so the current monitoring result is delivered through the complete pipeline:
 
 **AION 2 monitoring → GitHub archive → Discord notification**
 
