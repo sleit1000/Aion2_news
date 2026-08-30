@@ -42,20 +42,7 @@ jobs:
           TITLE=$(printf '%s\n' "$TEXT" | grep -m1 '^# ' | sed 's/^# //' || true)
           [ -z "$TITLE" ] && TITLE="AION 2 Global — нова информация"
 
-          # Remove the first H1 and truncate safely by Unicode characters, not bytes.
-          # Discord embed descriptions allow up to 4096 characters; we keep margin.
-          DESCRIPTION=$(printf '%s\n' "$TEXT" | sed '1{/^# /d;}' | python3 -c '
-import sys
-text = sys.stdin.read().strip()
-limit = 3400
-if len(text) > limit:
-    cut = text[:limit]
-    if " " in cut:
-        cut = cut.rsplit(" ", 1)[0]
-    text = cut.rstrip() + "\n\n… **Пълният текст е в GitHub.**"
-print(text)
-')
-
+          DESCRIPTION=$(printf '%s\n' "$TEXT" | sed '1{/^# /d;}' | python3 -c 'import sys; text=sys.stdin.read().strip(); limit=3400; print(text if len(text) <= limit else text[:limit].rsplit(" ", 1)[0].rstrip() + "\n\n… **Пълният текст е в GitHub.**")')
           [ -z "$DESCRIPTION" ] && DESCRIPTION="Нова AION 2 информация е добавена в GitHub."
 
           FILE_URL="https://github.com/${GITHUB_REPOSITORY}/blob/${GITHUB_SHA}/${FIRST_FILE}"
