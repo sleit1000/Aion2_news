@@ -1,0 +1,114 @@
+name: AION 2 News to Discord
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '20??-??-??/**/*.md'
+      - '20??-??-??/*.md'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  discord:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Test Discord webhook
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        shell: bash
+        run: |
+          payload=$(jq -n \
+            --arg title "✅ AION 2 tracker connected" \
+            --arg description "GitHub → Discord връзката работи. Следващите нови AION 2 Markdown новини ще се публикуват автоматично тук." \
+            --arg url "https://github.com/${GITHUB_REPOSITORY}" \
+            '{username:"AION 2 News",embeds:[{title:$title,description:$description,url:$url,footer:{text:"sleit1000/Aion2_news"}}]}')
+
+          curl --fail-with-body \
+            -H "Content-Type: application/json" \
+            -d "$payload" \
+            "$DISCORD_WEBHOOK_URL"
+
+      - name: Find changed news files
+        if: github.event_name == 'push'
+        id: changed
+        shell: bash
+        run: |
+          BEFORE="${{ github.event.before }}"
+          AFTER="${{ github.sha }}"
+
+          if [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+            FILES=$(git show --pretty='' --name-only "$AFTER" | grep -E '^20[0-9]{2}-[0-9]{2}-[0-9]{2}/.*\.md$' || true)
+          else
+            FILES=$(git diff --name-only "$BEFORE" "$AFTER" | grep -E '^20[0-9]{2}-[0-9]{2}-[0-9]{2}/.*\.md$' || true)
+          fi
+
+          {
+            echo "files<<EOF"
+            echo "$FILES"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Send new AION 2 news to Discord
+        if: github.event_name == 'push' && steps.changed.outputs.files != ''
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          FILES: ${{ steps.changed.outputs.files }}
+        shell: bash
+        run: |
+          embeds='[]'
+          count=0
+
+          while IFS= read -r file; do
+            [ -z "$file" ] && continue
+            [ ! -f "$file" ] && continue
+            [ "$count" -ge 5 ] && break
+
+            title=$(grep -m1 '^# ' "$file" | sed 's/^# //' || true)
+            [ -z "$title" ] && title=$(basename "$file" .md)
+            title=$(printf '%s' "$title" | cut -c1-250)
+
+            # Keep the useful beginning of the report while removing the first H1.
+            description=$(awk 'BEGIN{seen=0} /^# / && seen==0 {seen=1; next} {print}' "$file" \
+              | sed '/^[[:space:]]*$/N;/^\n$/D' \
+              | head -c 1300)
+
+            if [ -z "$description" ]; then
+              description="Нова AION 2 информация е добавена в GitHub."
+            fi
+
+            file_url="https://github.com/${GITHUB_REPOSITORY}/blob/${GITHUB_SHA}/${file}"
+
+            embed=$(jq -n \
+              --arg title "$title" \
+              --arg description "$description" \
+              --arg url "$file_url" \
+              --arg path "$file" \
+              '{title:$title,description:$description,url:$url,fields:[{name:"GitHub файл",value:("`"+$path+"`")}],footer:{text:"AION 2 Global Tracker • CONFIRMED / KR-TW / UNCONFIRMED statuses are kept in the report"}}')
+
+            embeds=$(jq -c --argjson e "$embed" '. + [$e]' <<< "$embeds")
+            count=$((count + 1))
+          done <<< "$FILES"
+
+          [ "$count" -eq 0 ] && exit 0
+
+          commit_url="https://github.com/${GITHUB_REPOSITORY}/commit/${GITHUB_SHA}"
+          payload=$(jq -n \
+            --arg content "📰 **Нова AION 2 информация** — [виж commit-а]($commit_url)" \
+            --argjson embeds "$embeds" \
+            '{username:"AION 2 News",content:$content,embeds:$embeds}')
+
+          curl --fail-with-body \
+            -H "Content-Type: application/json" \
+            -d "$payload" \
+            "$DISCORD_WEBHOOK_URL"
