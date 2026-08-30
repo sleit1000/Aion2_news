@@ -42,4 +42,4 @@
 ## Официални източници
 
 - AION 2 Steam News — Launch Scale Test Coming Up: https://steamcommunity.com/app/3393110/allnews/
-- Steam Pre-release FAQ (обновен на 2026-08-25): https://steamcommunity.com/app/3393110/discussions/6/802345327968609822/
+- Steam Pre-release FAQ — обновен на 2026-08-25: https://steamcommunity.com/app/3393110/discussions/6/802345327968609822/
