@@ -4,9 +4,9 @@ _Last baseline update: 2026-08-30_
 
 ## Release
 
-- **CONFIRMED:** AION 2 Global launches in **2026**.
-- **CONFIRMED:** NCSOFT has **not announced an exact Global launch date yet** in the official pre-release FAQ.
-- **UNCONFIRMED:** Some third-party sites currently state **September 2026**. Treat this as unconfirmed until NCSOFT publishes the date.
+- **CONFIRMED (Gamescom 2026):** AION 2 Global launches on **October 5, 2026**.
+- **CONFIRMED:** Founder’s Pack owners receive **5 days Early Access starting September 30, 2026**.
+- **CONFIRMED:** Global launch is PC via Steam and PURPLE.
 
 ## Launch Scale Test
 
@@ -24,7 +24,7 @@ Detailed note: [`2026-08-30/launch-scale-test.md`](2026-08-30/launch-scale-test.
 ## Platform
 
 - **CONFIRMED:** Global is currently being developed **for PC only**.
-- **CONFIRMED:** Global will be available through Steam.
+- **CONFIRMED:** Global will be available through Steam and PURPLE.
 - **CONFIRMED:** Controller play exists, but full controller support at launch is still being evaluated.
 
 ## Regions / servers
@@ -56,7 +56,7 @@ Officially listed for Global:
 ## Business model
 
 - **CONFIRMED:** Global will be **free-to-play**.
-- **CONFIRMED:** Founder’s Packs provide **5 days early access**.
+- **CONFIRMED:** Founder’s Packs provide **5 days early access beginning September 30, 2026**.
 - **CONFIRMED (2026-08-20):** All Founder’s Packs, including already purchased packs, receive **30 days Special Quai Membership**.
 
 ### Special Quai Membership — confirmed listed perks
@@ -115,6 +115,13 @@ These features exist in or have been reported from the live KR version, but must
 - healing-system rework for Cleric / Chanter
 - cross-faction / race-integrated matchmaking changes in some content
 - AMD FSR 4 / NVIDIA DLSS updates in KR client
+
+## Current rumors / unconfirmed Global watch
+
+- **🟡 Brawler at Global launch:** plausible after community reports that the class appears in the Gamescom trailer, but there is still no explicit official Global day-one class roster confirmation.
+- **🟠 Chapter 1 content at launch:** some third-party/community sources expect level 50 and newer KR/TW content in the Global build, but no official Global content matrix confirms this yet.
+
+Detailed rumor note: [`2026-08-30/rumor-roundup.md`](2026-08-30/rumor-roundup.md)
 
 ## Critical comparison rule
 
