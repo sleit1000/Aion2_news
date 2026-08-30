@@ -8,6 +8,19 @@ _Last baseline update: 2026-08-30_
 - **CONFIRMED:** NCSOFT has **not announced an exact Global launch date yet** in the official pre-release FAQ.
 - **UNCONFIRMED:** Some third-party sites currently state **September 2026**. Treat this as unconfirmed until NCSOFT publishes the date.
 
+## Launch Scale Test
+
+- **CONFIRMED (2026-08-26):** A public **Launch Scale Test (LST)** will run on **September 17–18, 2026**.
+- **Pre-download:** September 16, 15:00 CEST → September 17, 15:00 CEST.
+- **Day 1:** September 17, 15:00–21:00 CEST.
+- **Day 2:** September 18, 21:00 CEST → September 19, 03:00 CEST.
+- **Platforms:** Steam and PURPLE.
+- **Access:** open to everyone; no keys, invites, or registration list.
+- **Play time:** 6 hours per day / 12 hours total.
+- **Progression:** carries from Day 1 to Day 2, then is fully wiped; nothing transfers to Advanced Access or launch.
+
+Detailed note: [`2026-08-30/launch-scale-test.md`](2026-08-30/launch-scale-test.md)
+
 ## Platform
 
 - **CONFIRMED:** Global is currently being developed **for PC only**.
