@@ -1,45 +1,45 @@
-# AION 2 Global — Manual Monitoring Refresh
+# AION 2 Global — ръчно обновяване на следенето
 
-**Check date:** 2026-08-30  
-**Status:** CURRENT VERIFICATION — official Global sources checked
+**Дата на проверката:** 2026-08-30  
+**Статус:** ТЕКУЩА ПРОВЕРКА — проверени са официалните Global източници
 
-## Latest official Global status
+## Най-важното към момента
 
-A fresh monitoring pass was performed after reactivating the AION 2 Global tracker.
+Следенето на AION 2 Global беше пуснато отново и беше направена нова проверка на официалните източници.
 
-At the time of this check, the latest significant official AION 2 Global announcement remains the **Launch Scale Test** announcement published on **2026-08-26**.
+Към момента най-новата значима официална новина за Global версията остава обявеният на **26 август 2026 г. Launch Scale Test**.
 
-### Confirmed Launch Scale Test schedule — Europe / CEST
+### Потвърден график за Launch Scale Test — Европа / CEST
 
-- **Pre-download:** September 16, 15:00 CEST → September 17, 15:00 CEST
-- **Day 1:** September 17, 15:00–21:00 CEST
-- **Day 2:** September 18, 21:00 CEST → September 19, 03:00 CEST
+- **Предварително изтегляне:** 16 септември, 15:00 CEST → 17 септември, 15:00 CEST
+- **Ден 1:** 17 септември, 15:00–21:00 CEST
+- **Ден 2:** 18 септември, 21:00 CEST → 19 септември, 03:00 CEST
 
-### Confirmed access details
+### Потвърдени условия за достъп
 
-- Steam and PURPLE
-- Open to everyone
-- No keys
-- No invites
-- No registration list
-- 6 hours per day / 12 hours total
-- Day 1 progression carries into Day 2
-- All test progression is wiped after Day 2
-- Nothing transfers to Advanced Access or final launch
+- Steam и PURPLE
+- отворен за всички
+- без ключове
+- без покани
+- без списък за предварителна регистрация
+- по 6 часа на ден / общо 12 часа
+- прогресът от Ден 1 се запазва за Ден 2
+- след края на теста целият прогрес се изтрива
+- нищо не се прехвърля към Advanced Access или официалния старт
 
-## Release-date status
+## Статус на датата за официалния старт
 
-**CONFIRMED:** The exact AION 2 Global release date is still not officially announced. The official pre-release FAQ continues to state that Global launches later in 2026 and that the exact date will be shared closer to launch.
+**ПОТВЪРДЕНО:** Точната дата за пускане на AION 2 Global все още не е официално обявена. В официалния Pre-release FAQ продължава да пише, че Global версията излиза по-късно през 2026 г. и точната дата ще бъде обявена по-близо до старта.
 
-## Monitoring result
+## Резултат от проверката
 
-No newer official Global announcement superseding the August 26 Launch Scale Test notice was found during this refresh.
+При тази проверка не беше открита по-нова официална Global новина, която да заменя или променя информацията от 26 август за Launch Scale Test.
 
-This entry was intentionally re-published after repairing the GitHub Actions workflow so the current monitoring result is delivered through the complete pipeline:
+Този запис е публикуван отново след поправката на GitHub Actions, за да се провери целият процес:
 
-**AION 2 monitoring → GitHub archive → Discord notification**
+**AION 2 следене → GitHub архив → Discord известие**
 
-## Official sources
+## Официални източници
 
 - AION 2 Steam News — Launch Scale Test Coming Up: https://steamcommunity.com/app/3393110/allnews/
-- Steam Pre-release FAQ (updated 2026-08-25): https://steamcommunity.com/app/3393110/discussions/6/802345327968609822/
+- Steam Pre-release FAQ (обновен на 2026-08-25): https://steamcommunity.com/app/3393110/discussions/6/802345327968609822/
