@@ -1,6 +1,6 @@
 # AION 2 Global — Current Tracker
 
-_Last baseline update: 2026-08-30_
+_Last baseline update: 2026-08-31_
 
 ## Release
 
@@ -18,6 +18,13 @@ _Last baseline update: 2026-08-30_
 - **Access:** open to everyone; no keys, invites, or registration list.
 - **Play time:** 6 hours per day / 12 hours total.
 - **Progression:** carries from Day 1 to Day 2, then is fully wiped; nothing transfers to Advanced Access or launch.
+- **Max level during LST:** **37**; higher-level content will be unavailable.
+- **Purchases disabled:** Shop, Quna, Pass, Membership and all payment portals are turned off.
+- **Economy/trading disabled:** Marketplace, Quna Exchange and player-to-player trading are unavailable.
+- **Founder’s Pack items:** unavailable during LST.
+- **Closet:** disabled; default outfits only.
+- **After the test — Steam:** uninstall the Playtest App and download AION 2 separately for Early Access on September 30.
+- **After the test — PURPLE:** no additional steps required.
 
 Detailed note: [`2026-08-30/launch-scale-test.md`](2026-08-30/launch-scale-test.md)
 
@@ -132,6 +139,7 @@ For every future report:
 3. Mark exact differences between Global and KR.
 4. Never convert a KR feature into a Global-confirmed feature without evidence.
 5. If a rumor is later confirmed or disproved, update its status here.
+6. For every official announcement, extract not only the headline but also **Important Notes, limitations, disabled systems, level caps, eligibility rules, progression/wipe rules and post-event client instructions**.
 
 ## Primary sources
 
