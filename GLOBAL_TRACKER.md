@@ -16,6 +16,8 @@ _Last baseline update: 2026-08-31_
 - **Day 2:** September 18, 21:00 CEST → September 19, 03:00 CEST.
 - **Platforms:** Steam and PURPLE.
 - **Access:** open to everyone; no keys, invites, or registration list.
+- **Steam Playtest:** separate Steam beta app **AION 2 Playtest (App ID 4972320)**. Steam exposes a **Request Access / Request playtest** flow; this is compatible with the official “open to everyone” statement and is not a key/invite list.
+- **Steam technical baseline (Steam backend via SteamDB, observed 2026-08-26):** public Build ID **24907799**; depot size **78.23 GiB installed / 76.64 GiB download**. Treat these as a baseline and alert on any later build/size change.
 - **Play time:** 6 hours per day / 12 hours total.
 - **Progression:** carries from Day 1 to Day 2, then is fully wiped; nothing transfers to Advanced Access or launch.
 - **Max level during LST:** **37**; higher-level content will be unavailable.
@@ -154,3 +156,4 @@ Secondary sources are useful for discovery and translated KR patch notes, but ar
 
 - https://aion2hub.com/updates
 - https://www.aion2kina.com/
+- SteamDB AION 2 Playtest: https://steamdb.info/app/4972320/
