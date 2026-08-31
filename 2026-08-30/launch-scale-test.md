@@ -1,49 +1,43 @@
-# AION 2 Global — Launch Scale Test
+# AION 2 Global — Launch Scale Test: важни условия
 
-**Announcement date:** 2026-08-26  
-**Status:** CONFIRMED — official AION 2 Steam developer announcement
+**Дата на обявяване:** 26.08.2026  
+**Статус:** ✅ ПОТВЪРДЕНО ЗА GLOBAL — официална публикация на AION 2 в Steam
 
-## What was announced
+Launch Scale Test (LST) ще се проведе на **17–18 септември 2026 г.** и е отворен за всички играчи през **Steam и PURPLE**. Не са нужни ключове, покани или предварителна регистрация.
 
-NCSOFT announced an open **Launch Scale Test (LST)** for AION 2 Global on **September 17–18, 2026**.
+⚠️ **Важно: тестът е ограничен до Level 37.** Съдържание, което изисква по-високо ниво, няма да бъде достъпно.
 
-## Schedule — Europe / CEST
+## График — Европа / CEST
 
-- **Pre-download:** September 16, 15:00 CEST → September 17, 15:00 CEST
-- **Day 1:** September 17, 15:00–21:00 CEST
-- **Day 2:** September 18, 21:00 CEST → September 19, 03:00 CEST
+- **Предварително изтегляне:** 16 септември, 15:00 → 17 септември, 15:00
+- **Ден 1:** 17 септември, 15:00–21:00
+- **Ден 2:** 18 септември, 21:00 → 19 септември, 03:00
+- **Време за игра:** 6 часа на ден / 12 часа общо
 
-## Access
+Прогресът от Ден 1 се запазва за Ден 2, но след края на теста **всичко се изтрива**. Нищо не се прехвърля към Early Access или официалния launch.
 
-- **Platforms:** Steam and PURPLE
-- **Open to everyone**
-- No keys
-- No invites
-- No registration list
+## Ограничения по време на LST
 
-## Play time and progression
+Официално са потвърдени следните ограничения:
 
-- 6 hours of play time per day
-- 12 hours total across both test days
-- Day 1 progression carries into Day 2
-- All progression is wiped after Day 2
-- Nothing transfers to Advanced Access or the final launch
+1. **Няма да могат да се правят никакви покупки.** Shop, Quna, Pass, Membership и всички платежни портали ще бъдат изключени.
+2. **Market/Marketplace, Quna Exchange и директната търговия между играчи ще бъдат изключени.**
+3. **Предметите от Founder’s Pack няма да могат да се използват по време на теста.**
+4. **Closet ще бъде изключен** — ще могат да се използват само началните/default облекла.
+5. **Максималното ниво е 37**, затова съдържание над това ниво няма да бъде достъпно.
 
-## Why this matters
+## След края на теста
 
-This is the first confirmed large-scale public Global test immediately ahead of launch preparations. It should give useful evidence about:
+- **Steam:** Playtest App трябва да бъде деинсталиран, а AION 2 да бъде изтеглен отделно за Early Access на **30 септември**.
+- **PURPLE:** не се изискват допълнителни действия след теста.
 
-- the Global client/build;
-- class balance used for Global;
-- servers and networking;
-- localization;
-- monetization/UI differences from KR;
-- performance and technical issues;
-- which KR systems are already included in the Global build.
+## Защо това е важно
 
-A separate comparison should be made once the test client becomes available.
+LST няма да даде реална картина за платените системи и икономиката, защото покупките, Membership, Market, Quna Exchange и player-to-player trading са нарочно изключени. Тестът обаче ще е много полезен за проверка на Global клиента, класовете и balance build-а, сървърите, локализацията, производителността и кои KR системи вече са включени.
 
-## Source
+Особено важно ще бъде да проверим **кои класове са налични при Level 37**, какъв balance patch се използва и дали Brawler присъства в клиента.
 
-Official AION 2 Steam News — **Launch Scale Test Coming Up** (2026-08-26):
+## Източник
+
+Официална AION 2 Steam публикация — **Launch Scale Test Coming Up**, 26.08.2026:
 https://steamcommunity.com/app/3393110/allnews/
