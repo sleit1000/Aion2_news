@@ -74,3 +74,16 @@
 - [Официално японско Global предаване — AION2 Navi Vol.3](https://www.youtube.com/watch?v=3uaaPTm04EE)
 - [Официално съобщение на NC Japan за предаването](https://prtimes.jp/main/html/rd/p/000003046.000001868.html)
 - [Community transcription със снимки от официалните слайдове](https://www.reddit.com/r/Aion2/comments/1w0pwve/aion_2_global_info_from_jp_stream/)
+
+## 🔴 ВЕРОЯТНО НЕВЯРНО — твърдение за „Slayer“ datamine
+
+На 1 септември 2026 г. сайтът MMOEXP публикува твърдение, че файлове на предстоящия Global клиент разкриват десети клас **Slayer**, система **Blood Gauge/Berserk**, умения **Phantom Blitz**, **Crimson Dance** и **Soul Reap**, както и нови physics-based gliding механики.
+
+- **Статус:** 🔴 ВЕРОЯТНО НЕВЯРНО.
+- **Първоизточник:** не е посочен. Статията не дава файл, database entry, hash, screenshot, видео или профил на dataminer.
+- **Независимо потвърждение:** няма открито. Търсенето по името на класа и точните имена на уменията води обратно само към същата статия.
+- **Официално потвърждение:** няма от PLAYNC, Steam, NCSOFT или Global социалните канали.
+- **Сериозни противоречия:** материалът описва LST като 48-часов тест, въпреки че официалният график е два прозореца по 6 часа (12 часа общо); представя 16 септември като preload на официалния launch клиент, а официалната публикация го определя като pre-download за LST и изисква Steam играчите после да изтрият отделния Playtest App; твърди пълно обединяване на Early Access и Launch сървърите, докато официално е потвърден общ PvE matchmaking в региона, но не и общ пазар или сливане на сървърите.
+- **Практически извод:** не планирай клас, build или избор на сървър около „Slayer“. Потвърденият KR клас остава **Brawler**, а неговото присъствие при Global launch също още не е официално потвърдено.
+
+Източник на твърдението: [MMOEXP — Aion 2 Global Release Delayed to October 5: Slayer Class Skills & New Gliding Mechanics Leaked](https://www.mmoexp.com/News/aion-2-global-release-delayed-to-october-5-slayer-class-skills-new-gliding-mechanics-leaked.html)
