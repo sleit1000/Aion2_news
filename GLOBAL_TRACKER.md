@@ -148,6 +148,7 @@ These features exist in or have been reported from the live KR version, but must
 
 - **🟡 Brawler at Global launch:** plausible after community reports that the class appears in the Gamescom trailer, but there is still no explicit official Global day-one class roster confirmation.
 - **🟠 Chapter 1 content at launch:** some third-party/community sources expect level 50 and newer KR/TW content in the Global build, but no official Global content matrix confirms this yet.
+- **🔴 „Slayer“ datamine:** публикация от MMOEXP на 1 септември твърди, че Global файлове разкриват десети клас Slayer и нови gliding механики, но не показва нито един проверим artifact или първоизточник и съдържа фактически грешки за официалния LST график и клиент. Няма независимо или официално потвърждение; оценката е „вероятно невярно“. Подробности: [`2026-09-01/report.md`](2026-09-01/report.md).
 
 Detailed rumor note: [`2026-08-30/rumor-roundup.md`](2026-08-30/rumor-roundup.md)
 
