@@ -1,6 +1,6 @@
 # AION 2 Global — Current Tracker
 
-_Last baseline update: 2026-08-31_
+_Последно обновяване на базовото състояние: 2026-09-01_
 
 ## Release
 
@@ -29,6 +29,19 @@ _Last baseline update: 2026-08-31_
 - **After the test — PURPLE:** no additional steps required.
 
 Detailed note: [`2026-08-30/launch-scale-test.md`](2026-08-30/launch-scale-test.md)
+
+## Early Access и launch сървъри
+
+- **✅ ПОТВЪРДЕНО ЗА GLOBAL:** Early Access започва с отделна първа група Early Access Servers, достъпни първоначално само за притежатели на Founder's Pack.
+- На 5 октомври се отваря втора група Launch Servers.
+- След официалния launch играчите без пакет могат да изберат Launch Server или отворен Early Access Server, ако няма ограничение за създаване на персонажи.
+- По време на Early Access dungeon matchmaking обхваща Early Access сървърите в същия регион.
+- След launch PvE dungeon matchmaking обединява Early Access и Launch сървърите в същия регион; официалното японско Global предаване уточнява, че той е cross-faction, но не и cross-region.
+- В Abyss по време на Early Access участват само Early Access сървъри; след launch световете се съпоставят според развитието и общата им сила.
+- Server Market работи от първия ден на Early Access и е локален за сървъра.
+- Cross-Server Market няма да работи нито при Early Access, нито непосредствено при launch; ще бъде включен по-късно при сходно развитие на сървърите.
+- Server transfers са планирани, но не и за първия ден. NC ще определи момента след наблюдение на населението и натоварването; японското Global предаване показва трансфери само в рамките на същата фракция.
+- Подробности: [2026-09-01/report.md](2026-09-01/report.md)
 
 ## Platform
 
@@ -102,6 +115,12 @@ Includes Deluxe plus:
 - Moonlit Aria Armor Skin
 - Black Dragon Pet
 - Blazing Sun Wings
+
+### Получаване на наградите
+
+- **✅ ПОТВЪРДЕНО ЗА GLOBAL:** наградите могат да бъдат получени на Early Access Server от 30 септември.
+- Неполучените награди не се губят. След официалния launch на 5 октомври могат да бъдат получени на избран сървър чрез специалния Founder's Pack claim бутон.
+- Ако основният ти персонаж ще бъде на Launch Server, можеш да оставиш наградите неполучени по време на Early Access и да ги вземеш след launch.
 
 ## KR → Global watchlist
 
