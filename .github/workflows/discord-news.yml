@@ -64,8 +64,22 @@ jobs:
                 }]
               }')
 
-            curl --fail-with-body \
+            WEBHOOK_WAIT_URL="$DISCORD_WEBHOOK_URL"
+            case "$WEBHOOK_WAIT_URL" in
+              *\?*) WEBHOOK_WAIT_URL="$WEBHOOK_WAIT_URL&wait=true" ;;
+              *) WEBHOOK_WAIT_URL="$WEBHOOK_WAIT_URL?wait=true" ;;
+            esac
+
+            RESPONSE=$(curl --silent --show-error --fail-with-body \
               -H "Content-Type: application/json" \
               -d "$PAYLOAD" \
-              "$DISCORD_WEBHOOK_URL"
+              "$WEBHOOK_WAIT_URL")
+
+            MESSAGE_ID=$(printf '%s' "$RESPONSE" | jq -r '.id // empty')
+            CHANNEL_ID=$(printf '%s' "$RESPONSE" | jq -r '.channel_id // empty')
+            if [ -z "$MESSAGE_ID" ] || [ -z "$CHANNEL_ID" ]; then
+              echo "Discord прие заявката, но не върна message ID/channel ID." >&2
+              exit 1
+            fi
+            echo "Discord delivery confirmed: message_id=$MESSAGE_ID channel_id=$CHANNEL_ID file=$FILE"
           done <<< "$FILES"
