@@ -5,6 +5,9 @@ _Последно обновяване на базовото състояние:
 ## Release
 
 - **CONFIRMED (Gamescom 2026):** AION 2 Global launches on **October 5, 2026**.
+- **🟡 STEAM BACKEND SIGNAL (2026-09-01):** Steam currently exposes a release timestamp of **October 5, 2026 at 13:00 UTC / 15:00 CEST (Europe/Warsaw)**. This is not yet an explicit NC confirmation of the Global server-opening time and may be a storefront unlock placeholder. Early Access still has no public exact hour.
+- A new main-app changelist, **38518150**, appeared at 18:57:36 UTC on September 1. Its exact diff is not public without Steam sign-in; it is not evidence of a Playtest build, class, preload or content change.
+- Detailed signal note: [`2026-09-01/steam-backend-signal.md`](2026-09-01/steam-backend-signal.md)
 - **CONFIRMED:** Founder’s Pack owners receive **5 days Early Access starting September 30, 2026**.
 - **CONFIRMED:** Global launch is PC via Steam and PURPLE.
 
