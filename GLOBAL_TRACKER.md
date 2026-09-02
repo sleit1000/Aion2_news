@@ -8,6 +8,7 @@ _Последно обновяване на базовото състояние:
 - **🟡 STEAM BACKEND SIGNAL (2026-09-01):** Steam currently exposes a release timestamp of **October 5, 2026 at 13:00 UTC / 15:00 CEST (Europe/Warsaw)**. This is not yet an explicit NC confirmation of the Global server-opening time and may be a storefront unlock placeholder. Early Access still has no public exact hour.
 - A new main-app changelist, **38518150**, appeared at 18:57:36 UTC on September 1. Its exact diff is not public without Steam sign-in; it is not evidence of a Playtest build, class, preload or content change.
 - **🟡 STEAM BACKEND SIGNAL (2026-09-02):** a second main-app record update, changelist **38530771**, appeared at **06:04:43 UTC / 08:04:43 CEST**. The public release timestamp remains October 5 at 13:00 UTC; the Playtest app still has no new public record/build. The diff is hidden without Steam sign-in, so this does not confirm a client, preload or content change. Detailed note: [`2026-09-02/steam-backend-signal.md`](2026-09-02/steam-backend-signal.md)
+- **🟡 STEAM BACKEND SIGNAL (2026-09-02):** a third main-app record update, changelist **38544647**, appeared at **15:29:13 UTC / 17:29:13 CEST**. Release/Advanced Access public fields are unchanged and the Playtest app still shows no new record/build. Details: [`2026-09-02/evening-update.md`](2026-09-02/evening-update.md)
 - Detailed signal note: [`2026-09-01/steam-backend-signal.md`](2026-09-01/steam-backend-signal.md)
 - **CONFIRMED:** Founder’s Pack owners receive **5 days Early Access starting September 30, 2026**.
 - **CONFIRMED:** Global launch is PC via Steam and PURPLE.
@@ -46,6 +47,12 @@ Detailed note: [`2026-08-30/launch-scale-test.md`](2026-08-30/launch-scale-test.
 - Cross-Server Market няма да работи нито при Early Access, нито непосредствено при launch; ще бъде включен по-късно при сходно развитие на сървърите.
 - Server transfers са планирани, но не и за първия ден. NC ще определи момента след наблюдение на населението и натоварването; японското Global предаване показва трансфери само в рамките на същата фракция.
 - Подробности: [2026-09-01/report.md](2026-09-01/report.md)
+
+## Upcoming official Global broadcasts
+
+- **✅ ПОТВЪРДЕНО ЗА GLOBAL:** Dungeon Live Gameplay Showcase — **4 септември 2026 г., 10:00 PDT / 19:00 CEST (Europe/Warsaw)** в официалния AION 2 Twitch канал с @ParallaxStella.
+- Обявено е live dungeon gameplay; не е обещан developer roadmap, class balance reveal или нов launch час.
+- Подробности: [`2026-09-02/evening-update.md`](2026-09-02/evening-update.md)
 
 ## Platform
 
