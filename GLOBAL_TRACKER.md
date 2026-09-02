@@ -53,6 +53,13 @@ Detailed note: [`2026-08-30/launch-scale-test.md`](2026-08-30/launch-scale-test.
 - **CONFIRMED:** Global will be available through Steam and PURPLE.
 - **CONFIRMED:** Controller play exists, but full controller support at launch is still being evaluated.
 
+## Graphics / performance
+
+- **✅ ПОТВЪРДЕНО ЗА GLOBAL (2026-09-01):** официалният AION 2 Global канал потвърди **NVIDIA DLSS 4.5** за PC клиента.
+- NC още не е публикувала benchmark, системни изисквания, RTX compatibility matrix или точен списък на използваните DLSS 4.5 компоненти; не трябва да се приема автоматично, че са включени всички функции от общия NVIDIA пакет.
+- NVIDIA отделно посочва AION 2 сред игрите с бъдеща **DLSS 5** поддръжка през есента на 2026 г., но без точна дата. Това не потвърждава DLSS 5 за Early Access или launch day.
+- Подробности: [2026-09-02/global-dlss.md](2026-09-02/global-dlss.md)
+
 ## Regions / servers
 
 Officially confirmed server regions:
