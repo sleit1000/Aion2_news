@@ -1,6 +1,6 @@
 # AION 2 Global — Current Tracker
 
-_Последно обновяване на базовото състояние: 2026-09-02_
+_Последно обновяване на базовото състояние: 2026-09-03_
 
 ## Release
 
@@ -9,6 +9,7 @@ _Последно обновяване на базовото състояние:
 - A new main-app changelist, **38518150**, appeared at 18:57:36 UTC on September 1. Its exact diff is not public without Steam sign-in; it is not evidence of a Playtest build, class, preload or content change.
 - **🟡 STEAM BACKEND SIGNAL (2026-09-02):** a second main-app record update, changelist **38530771**, appeared at **06:04:43 UTC / 08:04:43 CEST**. The public release timestamp remains October 5 at 13:00 UTC; the Playtest app still has no new public record/build. The diff is hidden without Steam sign-in, so this does not confirm a client, preload or content change. Detailed note: [`2026-09-02/steam-backend-signal.md`](2026-09-02/steam-backend-signal.md)
 - **🟡 STEAM BACKEND SIGNAL (2026-09-02):** a third main-app record update, changelist **38544647**, appeared at **15:29:13 UTC / 17:29:13 CEST**. Release/Advanced Access public fields are unchanged and the Playtest app still shows no new record/build. Details: [`2026-09-02/evening-update.md`](2026-09-02/evening-update.md)
+- **🟡 STEAM BACKEND SIGNAL (2026-09-03):** a fourth visible main-app record update since September 1, changelist **38557198**, appeared at **00:58:09 UTC / 02:58:09 CEST**. Release remains October 5 at 13:00 UTC, Advanced Access remains September 30 without a public exact hour, and the Playtest app still has no new public record/build or size change. The diff is not public, so this does not confirm preload or a new client. Details: [`2026-09-03/report.md`](2026-09-03/report.md)
 - Detailed signal note: [`2026-09-01/steam-backend-signal.md`](2026-09-01/steam-backend-signal.md)
 - **CONFIRMED:** Founder’s Pack owners receive **5 days Early Access starting September 30, 2026**.
 - **CONFIRMED:** Global launch is PC via Steam and PURPLE.
