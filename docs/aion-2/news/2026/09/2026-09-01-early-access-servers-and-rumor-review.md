@@ -1,3 +1,26 @@
+---
+schema_version: 1
+id: "aion2.news.2026-09-01.early-access-servers-and-rumor-review"
+title: "✅ ПОТВЪРДЕНО ЗА GLOBAL — Early Access сървъри, matchmaking, пазари и трансфери"
+game: "aion-2"
+document_type: "news"
+topic: "servers"
+region: "mixed"
+language: "bg"
+verification: "mixed"
+source_type: "mixed"
+source_urls:
+  - "https://aion2.plaync.com/en-us/board/notice/view?articleId=6a5819287b798626e79a8892"
+  - "https://www.youtube.com/watch?v=3uaaPTm04EE"
+  - "https://prtimes.jp/main/html/rd/p/000003046.000001868.html"
+  - "https://www.reddit.com/r/Aion2/comments/1w0pwve/aion_2_global_info_from_jp_stream/"
+  - "https://www.mmoexp.com/News/aion-2-global-release-delayed-to-october-5-slayer-class-skills-new-gliding-mechanics-leaked.html"
+published_at: "2026-09-01T00:00:00Z"
+updated_at: "2026-09-04T02:40:10Z"
+notify_discord: false
+archived: true
+migrated_from: "2026-09-01/report.md"
+---
 # ✅ ПОТВЪРДЕНО ЗА GLOBAL — Early Access сървъри, matchmaking, пазари и трансфери
 
 Няма промяна в датите за Launch Scale Test, Early Access или официалния launch. Този отчет попълва важна липса в архива: официалната схема за Early Access/Launch сървърите, matchmaking, пазарите и бъдещите server transfers.

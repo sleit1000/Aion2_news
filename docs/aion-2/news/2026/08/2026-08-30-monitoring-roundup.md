@@ -1,3 +1,24 @@
+---
+schema_version: 1
+id: "aion2.news.2026-08-30.monitoring-roundup"
+title: "AION 2 Global Monitoring Report — 2026-08-30"
+game: "aion-2"
+document_type: "news"
+topic: "daily-roundup"
+region: "mixed"
+language: "bg"
+verification: "mixed"
+source_type: "mixed"
+source_urls:
+  - "https://steamcommunity.com/app/3393110/discussions/6/802345327968609822/"
+  - "https://steamcommunity.com/app/3393110/allnews/"
+  - "https://aion2hub.com/updates"
+published_at: "2026-08-30T00:00:00Z"
+updated_at: "2026-09-04T02:40:10Z"
+notify_discord: false
+archived: true
+migrated_from: "2026-08-30/report.md"
+---
 # AION 2 Global Monitoring Report — 2026-08-30
 
 ## Summary

@@ -1,3 +1,24 @@
+---
+schema_version: 1
+id: "aion2.news.2026-08-31.steam-playtest-build"
+title: "🟠 AION 2 Launch Scale Test — Steam Playtest build и размер"
+game: "aion-2"
+document_type: "news"
+topic: "steam-playtest"
+region: "global"
+language: "bg"
+verification: "confirmed"
+source_type: "technical"
+source_urls:
+  - "https://steamcommunity.com/app/3393110/allnews/"
+  - "https://store.steampowered.com/app/4972320"
+  - "https://steamdb.info/app/4972320/depots/"
+published_at: "2026-08-31T00:00:00Z"
+updated_at: "2026-09-04T02:40:10Z"
+notify_discord: false
+archived: true
+migrated_from: "2026-08-31/launch-scale-test-steam-playtest.md"
+---
 # 🟠 AION 2 Launch Scale Test — Steam Playtest build и размер
 
 [СТАТУС]

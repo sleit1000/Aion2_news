@@ -1,3 +1,27 @@
+---
+schema_version: 1
+id: "aion2.news.2026-09-02.kr-pvp-and-class-balance"
+title: "Само KR/TW — голям PvP режим и нов class balance на 2 септември"
+game: "aion-2"
+document_type: "news"
+topic: "class-balance"
+region: "kr"
+language: "bg"
+verification: "confirmed"
+source_type: "official"
+source_urls:
+  - "https://aion2.plaync.com/ko-kr/board/notice/view?articleId=6a974d38eea53f5d6dbcf5ae"
+  - "https://aion2.plaync.com/ko-kr/board/update/view?articleId=6a9727b8fa34c1011d627551"
+  - "https://aion2.plaync.com/ko-kr/board/notice/view?articleId=6a96b030d97eae18cc40dd36"
+  - "https://www.reddit.com/r/Aion2/comments/1w49kyf/aion2_cm_update_summary_september_2/"
+  - "https://steamcommunity.com/app/3393110/allnews/"
+  - "https://steamdb.info/app/4972320/history/"
+published_at: "2026-09-02T00:00:00Z"
+updated_at: "2026-09-04T02:40:10Z"
+notify_discord: false
+archived: true
+migrated_from: "2026-09-02/report.md"
+---
 # Само KR/TW — голям PvP режим и нов class balance на 2 септември
 
 **Няма ново официално потвърждение или промяна за Global.** Steam News, Global PLAYNC и официалният Global X канал не са публикували ново съобщение след последната проверка; публичният AION 2 Playtest build също остава без видима промяна.

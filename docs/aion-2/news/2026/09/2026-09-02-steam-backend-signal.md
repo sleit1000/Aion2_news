@@ -1,3 +1,25 @@
+---
+schema_version: 1
+id: "aion2.news.2026-09-02.steam-backend-signal"
+title: "🟡 STEAM СИГНАЛ — нов record update на 2 септември"
+game: "aion-2"
+document_type: "news"
+topic: "steam-backend"
+region: "global"
+language: "bg"
+verification: "unconfirmed"
+source_type: "technical"
+source_urls:
+  - "https://steamdb.info/app/3393110/"
+  - "https://steamdb.info/changelist/38530771/"
+  - "https://steamdb.info/app/4972320/"
+  - "https://steamcommunity.com/app/3393110/allnews/"
+published_at: "2026-09-02T00:00:00Z"
+updated_at: "2026-09-04T02:40:10Z"
+notify_discord: false
+archived: true
+migrated_from: "2026-09-02/steam-backend-signal.md"
+---
 # 🟡 STEAM СИГНАЛ — нов record update на 2 септември
 
 Основното Steam приложение на AION 2 (App ID `3393110`) получи нов record update на **2 септември 2026 г. в 08:04:43 Europe/Warsaw** — changelist **38530771**.

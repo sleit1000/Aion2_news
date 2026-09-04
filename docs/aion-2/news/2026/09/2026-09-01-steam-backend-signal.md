@@ -1,3 +1,25 @@
+---
+schema_version: 1
+id: "aion2.news.2026-09-01.steam-backend-signal"
+title: "🟡 STEAM СИГНАЛ — нов App record update и непотвърден час 15:00 CEST"
+game: "aion-2"
+document_type: "news"
+topic: "steam-backend"
+region: "global"
+language: "bg"
+verification: "unconfirmed"
+source_type: "technical"
+source_urls:
+  - "https://steamdb.info/app/3393110/"
+  - "https://steamdb.info/changelist/38518150/"
+  - "https://steamdb.info/app/4972320/"
+  - "https://store.steampowered.com/app/3393110/AION_2/"
+published_at: "2026-09-01T00:00:00Z"
+updated_at: "2026-09-04T02:40:10Z"
+notify_discord: false
+archived: true
+migrated_from: "2026-09-01/steam-backend-signal.md"
+---
 # 🟡 STEAM СИГНАЛ — нов App record update и непотвърден час 15:00 CEST
 
 Steam записа нова промяна за основния AION 2 App ID `3393110` на **1 септември 2026 г. в 20:57:36 Europe/Warsaw**. Публичните полета след промяната продължават да показват release timestamp **5 октомври 2026 г., 13:00 UTC**, което е **15:00 CEST (Europe/Warsaw)**.

@@ -1,3 +1,28 @@
+---
+schema_version: 1
+id: "aion2.news.2026-09-02.gameplay-showcase-and-steam-signal"
+title: "✅ Global live gameplay на 4 септември + нов Steam backend сигнал"
+game: "aion-2"
+document_type: "news"
+topic: "mixed-update"
+region: "global"
+language: "bg"
+verification: "mixed"
+source_type: "mixed"
+source_urls:
+  - "https://www.twitch.tv/aion2official"
+  - "https://x.com/AION2Official/status/2094995912951300148"
+  - "https://www.facebook.com/aion2official/"
+  - "https://steamdb.info/app/3393110/"
+  - "https://steamdb.info/changelist/38544647/"
+  - "https://steamdb.info/app/4972320/"
+  - "https://steamcommunity.com/app/3393110/allnews/"
+published_at: "2026-09-02T00:00:00Z"
+updated_at: "2026-09-04T02:40:10Z"
+notify_discord: false
+archived: true
+migrated_from: "2026-09-02/evening-update.md"
+---
 # ✅ Global live gameplay на 4 септември + нов Steam backend сигнал
 
 Официалният AION 2 Global канал обяви **Dungeon Live Gameplay Showcase** за **4 септември 2026 г. от 19:00 Europe/Warsaw**. Предаването ще е в официалния AION 2 Twitch канал с @ParallaxStella.

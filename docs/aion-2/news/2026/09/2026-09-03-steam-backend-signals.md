@@ -1,3 +1,27 @@
+---
+schema_version: 1
+id: "aion2.news.2026-09-03.steam-backend-signals"
+title: "🟡 Нови Steam backend сигнали на 3 септември — последен changelist 38575226"
+game: "aion-2"
+document_type: "news"
+topic: "steam-backend"
+region: "global"
+language: "bg"
+verification: "unconfirmed"
+source_type: "technical"
+source_urls:
+  - "https://steamdb.info/app/3393110/"
+  - "https://steamdb.info/changelist/38575226/"
+  - "https://steamdb.info/changelist/38571014/"
+  - "https://steamdb.info/changelist/38557198/"
+  - "https://steamdb.info/app/4972320/"
+  - "https://steamcommunity.com/app/3393110/allnews/"
+published_at: "2026-09-03T00:00:00Z"
+updated_at: "2026-09-04T02:40:10Z"
+notify_discord: false
+archived: true
+migrated_from: "2026-09-03/report.md"
+---
 # 🟡 Нови Steam backend сигнали на 3 септември — последен changelist 38575226
 
 **ОБНОВЕНО 18:00 ч. Europe/Warsaw:** основното AION 2 приложение в Steam получи трети record update за деня — **changelist 38575226** в **16:54:38 ч.** Публичният запис отново не разкрива конкретния diff и **не доказва** нов клиент, preload или промяна на launch графика.

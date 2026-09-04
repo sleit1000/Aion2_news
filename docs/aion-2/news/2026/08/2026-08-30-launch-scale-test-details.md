@@ -1,3 +1,22 @@
+---
+schema_version: 1
+id: "aion2.news.2026-08-30.launch-scale-test-details"
+title: "AION 2 Global — Launch Scale Test: важни условия"
+game: "aion-2"
+document_type: "news"
+topic: "testing"
+region: "global"
+language: "bg"
+verification: "confirmed"
+source_type: "official"
+source_urls:
+  - "https://steamcommunity.com/app/3393110/allnews/"
+published_at: "2026-08-30T00:00:00Z"
+updated_at: "2026-09-04T02:40:10Z"
+notify_discord: false
+archived: true
+migrated_from: "2026-08-30/launch-scale-test.md"
+---
 # AION 2 Global — Launch Scale Test: важни условия
 
 **Дата на обявяване:** 26.08.2026  

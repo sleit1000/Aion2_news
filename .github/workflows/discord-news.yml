@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "docs/aion-2/news/**/*.md"
 
 permissions:
   contents: read
@@ -12,7 +14,7 @@ jobs:
   notify:
     runs-on: ubuntu-latest
     steps:
-      - name: Send changed AION 2 news to Discord
+      - name: Send publishable AION 2 news to Discord
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           GH_TOKEN: ${{ github.token }}
@@ -25,30 +27,36 @@ jobs:
 
           FILES=$(printf '%s' "$COMMIT_JSON" \
             | jq -r '.files[]? | select(.status != "removed") | .filename' \
-            | grep -E '^20[0-9]{2}-[0-9]{2}-[0-9]{2}/.*[.]md$' \
+            | grep -E '^docs/aion-2/news/[0-9]{4}/[0-9]{2}/.*[.]md$' \
             | sort -u \
             | head -10 \
             || true)
 
           [ -z "$FILES" ] && exit 0
 
-          # Ако има отделни тематични файлове, не пращай и report.md,
-          # за да няма дублирани Discord съобщения.
-          SPECIFIC_FILES=$(printf '%s\n' "$FILES" | grep -v '/report[.]md$' || true)
-          if [ -n "$SPECIFIC_FILES" ]; then
-            FILES="$SPECIFIC_FILES"
-          fi
-
           while IFS= read -r FILE; do
             [ -z "$FILE" ] && continue
 
             RAW_URL="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_SHA}/${FILE}"
             TEXT=$(curl -fsSL "$RAW_URL" || true)
+            [ -z "$TEXT" ] && continue
 
-            TITLE=$(printf '%s\n' "$TEXT" | grep -m1 '^# ' | sed 's/^# //' || true)
+            DOCUMENT_TYPE=$(printf '%s\n' "$TEXT" | awk -F': *' '$1=="document_type"{gsub(/["'"'"']/, "", $2); print $2; exit}')
+            NOTIFY_DISCORD=$(printf '%s\n' "$TEXT" | awk -F': *' '$1=="notify_discord"{gsub(/[[:space:]]/, "", $2); print tolower($2); exit}')
+
+            [ "$DOCUMENT_TYPE" = "news" ] || continue
+            [ "$NOTIFY_DISCORD" = "true" ] || continue
+
+            BODY=$(printf '%s\n' "$TEXT" | awk '
+              NR == 1 && $0 == "---" { frontmatter=1; next }
+              frontmatter && $0 == "---" { frontmatter=0; next }
+              !frontmatter { print }
+            ')
+
+            TITLE=$(printf '%s\n' "$BODY" | grep -m1 '^# ' | sed 's/^# //' || true)
             [ -z "$TITLE" ] && TITLE="AION 2 Global — нова информация"
 
-            DESCRIPTION=$(printf '%s\n' "$TEXT" | sed '1{/^# /d;}' | python3 -c 'import sys; text=sys.stdin.read().strip(); limit=3800; print(text if len(text) <= limit else text[:limit].rsplit(" ", 1)[0].rstrip() + "\n\n…")')
+            DESCRIPTION=$(printf '%s\n' "$BODY" | sed '1{/^# /d;}' | python3 -c 'import sys; text=sys.stdin.read().strip(); limit=3800; print(text if len(text) <= limit else text[:limit].rsplit(" ", 1)[0].rstrip() + "\n\n…")')
             [ -z "$DESCRIPTION" ] && DESCRIPTION="Има нова информация за AION 2 Global."
 
             PAYLOAD=$(jq -n \

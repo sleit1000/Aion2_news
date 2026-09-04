@@ -1,3 +1,22 @@
+---
+schema_version: 1
+id: "aion2.news.2026-08-30.rumor-roundup"
+title: "🟡 AION 2 Global — последни слухове и непотвърдени информации"
+game: "aion-2"
+document_type: "news"
+topic: "rumors"
+region: "global"
+language: "bg"
+verification: "unconfirmed"
+source_type: "community"
+source_urls:
+  - "https://steamcommunity.com/app/3393110/allnews/"
+published_at: "2026-08-30T00:00:00Z"
+updated_at: "2026-09-04T02:40:10Z"
+notify_discord: false
+archived: true
+migrated_from: "2026-08-30/rumor-roundup.md"
+---
 # 🟡 AION 2 Global — последни слухове и непотвърдени информации
 
 Към 30 август 2026 г. има два слуха, които са достатъчно интересни, за да ги следим. И двата са **непотвърдени за Global** и не трябва да се приемат като официален факт.
