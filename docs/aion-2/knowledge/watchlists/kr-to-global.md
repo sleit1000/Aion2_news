@@ -11,7 +11,8 @@ verification: "unconfirmed"
 source_type: "official"
 source_urls:
   - "https://aion2.plaync.com/ko-kr/board/update"
-  - "https://aion2.plaync.com/"\n  - "https://tw.ncsoft.com/aion2/board/notice/view?articleId=6a993e18eea53f5d6dbcf5e2"
+  - "https://aion2.plaync.com/"
+  - "https://tw.ncsoft.com/aion2/board/notice/view?articleId=6a993e18eea53f5d6dbcf5e2"
 updated_at: "2026-09-04T10:06:19Z"
 notify_discord: false
 ---
