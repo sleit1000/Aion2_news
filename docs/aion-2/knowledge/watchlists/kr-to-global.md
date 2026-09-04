@@ -1,7 +1,7 @@
 ---
 schema_version: 1
 id: "aion2.watchlist.kr-to-global"
-title: "KR → Global наблюдение"
+title: "KR/TW → Global наблюдение"
 game: "aion-2"
 document_type: "knowledge"
 topic: "watchlist"
@@ -11,18 +11,18 @@ verification: "unconfirmed"
 source_type: "official"
 source_urls:
   - "https://aion2.plaync.com/ko-kr/board/update"
-  - "https://aion2.plaync.com/"
-updated_at: "2026-09-04T02:40:10Z"
+  - "https://aion2.plaync.com/"\n  - "https://tw.ncsoft.com/aion2/board/notice/view?articleId=6a993e18eea53f5d6dbcf5e2"
+updated_at: "2026-09-04T10:06:19Z"
 notify_discord: false
 ---
-# KR → Global наблюдение
+# KR/TW → Global наблюдение
 
-Следните функции съществуват или са докладвани за KR версията, но **не са потвърдени за Global**:
+Следните функции съществуват или са докладвани за KR/TW версиите, но **не са потвърдени за Global**:
 
 - максимално ниво 50
 - клас Brawler
 - Eltnen и Morheim разширение
-- големи class-balance промени
+- големи class-balance промени; пакетът от 4 септември за Templar, Assassin, Spiritmaster, Ranger, Chanter и Cleric е потвърден и за KR, и за TW
 - широк PvP damage tuning
 - 300v300 Abyss промени
 - server transfers

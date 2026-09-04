@@ -1,7 +1,7 @@
 ---
 schema_version: 1
 id: "aion2.news.2026-09-04.kr-class-care-hotfix"
-title: "Само KR — извънреден class-care hotfix на 4 септември"
+title: "KR — извънреден class-care hotfix на 4 септември"
 game: "aion-2"
 document_type: "news"
 topic: "class-balance"
@@ -13,14 +13,14 @@ source_urls:
   - "https://aion2.plaync.com/ko-kr/board/notice/view?articleId=6a9930086b722c561dc6a3b4"
 published_at: "2026-09-03T01:30:00Z"
 event_at: "2026-09-03T19:30:00Z"
-updated_at: "2026-09-04T03:59:16Z"
-notify_discord: true
+updated_at: "2026-09-04T10:06:19Z"
+notify_discord: false
 ---
-# Само KR — извънреден class-care hotfix на 4 септември
+# KR — извънреден class-care hotfix на 4 септември
 
-**Само KR — няма потвърждение за Global.** NC приложи извънреден class-care hotfix за корейската версия на **4 септември 2026 г.** Променени са Templar, Assassin, Spiritmaster, Ranger, Chanter и Cleric, а лимитът на новия Spacetime Rift Contested Battle е разширен от **60–200 на 25–500 играчи от фракция**.
+**KR — няма потвърждение за Global.** NC приложи извънреден class-care hotfix за корейската версия на **4 септември 2026 г.** Променени са Templar, Assassin, Spiritmaster, Ranger, Chanter и Cleric, а лимитът на новия Spacetime Rift Contested Battle е разширен от **60–200 на 25–500 играчи от фракция**.
 
-Финалните числа не са просто повторение на preview-а от 2 септември. Например Templar веригата получава **+20% PvE**, а не по-ранно обявените +30%; добавени са отделни PvP nerfs и преразпределение на cooldown ефектите. Това е важна корекция на KR баланса, но **не променя Global tier оценките**, докато няма официално Global потвърждение или тестови данни.
+**Актуализация от 4 септември:** същият пакет е приложен и в TW версията; виж [отделната TW публикация](./2026-09-04-tw-class-care-hotfix.md). И двете регионални версии остават непотвърдени за Global.\n\nФиналните числа не са просто повторение на preview-а от 2 септември. Например Templar веригата получава **+20% PvE**, а не по-ранно обявените +30%; добавени са отделни PvP nerfs и преразпределение на cooldown ефектите. Това е важна корекция на KR баланса, но **не променя Global tier оценките**, докато няма официално Global потвърждение или тестови данни.
 
 ## Кога е приложен hotfix-ът
 
