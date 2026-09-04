@@ -33,7 +33,7 @@ migrated_from: "2026-09-02/report.md"
 - Официалният AION 2 Global канал потвърди **NVIDIA DLSS 4.5** за PC клиента.
 - Клипът обещава по-ясен образ, по-добра стабилност на кадрите и повишена производителност, но няма benchmark, hardware matrix или списък на активните DLSS 4.5 компоненти.
 - NVIDIA отделно посочва AION 2 сред бъдещите DLSS 5 игри за есента на 2026 г.; няма точна дата и това не е доказателство за DLSS 5 още при Early Access или launch.
-- Подробности: [global-dlss.md](global-dlss.md)
+- Подробности: [global-dlss.md](2026-09-02-global-dlss-4-5.md)
 
 ## Нов режим: Spacetime Rift — Contested Battle
 
